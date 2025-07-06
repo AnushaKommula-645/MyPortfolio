@@ -1,0 +1,110 @@
+h1 {
+    color: #b688fc;
+    font-size: 3rem;
+    margin-top: 200px;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+
+}
+
+.container {
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+    gap: 2rem;
+    padding: 1rem;
+    margin: 40px auto;
+    flex-wrap: wrap;
+}
+
+
+.prjContainer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 300px;
+    padding: 10px;
+    margin-right: 20px;
+    background-color: white;
+    border: 1px solid #4340ff;
+    border-radius: 10px;
+    color: black;
+    box-shadow: 2px 2px 8px 2px #716ff7;
+    transition: transform 0.2s ease-in-out;
+}
+
+.prjContainer:hover {
+    transform: scale(1.03);
+}
+
+.prjImg img {
+    height: 170px;
+    width: 280px;
+    object-fit: cover;
+    border: 2px solid #716ff7;
+    border-radius: 10px;
+}
+
+.prjDesc {
+    padding: 10px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 5px;
+    font-size: 13px;
+}
+
+.prjTech {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    justify-content: center;
+}
+
+.lang {
+    background: #716ff7;
+    padding: 5px 6px;
+    border-radius: 5px;
+    color: white;
+    margin-bottom: 5px;
+    border: 1px solid #413ef5;
+    box-shadow: 1px 1px 5px 1px #a09fee;
+}
+
+.btnContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.btnContainer :nth-child(1) {
+    background-color:#aad4ac;
+    width: 100px;
+    height: 40px;
+    border: 1px solid #7ed382;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    box-shadow: 1px 1px 5px 1px #aad4ace4;
+}
+
+.btnContainer :nth-child(2) button {
+    background-color: #f16593;
+    width: 100px;
+    height: 40px;
+    border: 1px solid #f05085;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    box-shadow: 1px 1px 5px 1px #f16594e0;
+}
+
+button:hover {
+    cursor: pointer;
+}

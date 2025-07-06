@@ -1,0 +1,40 @@
+.dsaSection {
+    text-align: center;
+    padding: 30px;
+    color: black;
+    background: linear-gradient(to right, #716ff7, #b688fc, #e987da);
+}
+.dsaSection p {
+  font-size: 45px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-top: 20px;
+}
+
+.profile {
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    width: 150px;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out, box-shadow 0.3s;
+    color: black;
+    text-align: center;
+}
+
+.profile:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px #b688fc;
+}
+
+.icon {
+    font-size: 40px;
+    margin-bottom: 10px;
+}

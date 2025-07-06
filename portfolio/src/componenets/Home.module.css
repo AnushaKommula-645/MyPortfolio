@@ -1,0 +1,113 @@
+main{
+    display: flex;
+    margin-top: 76px;
+    margin-bottom: 200px;
+}
+section {
+    flex: 2;
+    margin: 50px;
+    margin-top: 110px;
+    padding: 20px;
+    animation: slideFadeInLeft 1s ease-out;
+}
+
+.hello {
+    font-weight: 500;
+    font-size: 22px;
+    margin-bottom: 0px;
+    margin-left: 5px;
+}
+.name {
+    font-weight: 900;
+    text-align: left;
+    font-size: 60px;
+    color: white;
+    margin: 10px 0px;
+    padding: 0;
+}
+.gradientText {
+  background: linear-gradient(to right, #716ff7,#b688fc, #e987da);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.skill {
+    font-weight: 600;
+    font-size: 30px;
+    margin: 5px;
+    margin-left: 0px;
+}
+.about {
+    font-weight:lighter;
+    text-align: justify;
+    font-size: 18px;
+    color: rgb(138, 137, 137);
+
+}
+
+aside {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+.imageWrapper {
+  width: 350px;
+  height: 350px;
+  background: linear-gradient(to right, #716ff7, #b688fc, #e987da);
+  border-radius: 50%;
+  box-shadow: 0 0 10px #716ff7, 0 0 20px #b688fc, 0 0 30px #e987da;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: float 4s ease-in-out infinite, zoomFadeIn 1.2s ease-out;
+}
+
+
+.circleBg {
+  width: 300px;
+  height: 300px;
+  border: 2px solid white;
+  background: rgba(240, 237, 237, 0.703);
+  border-radius: 50%;
+  box-shadow: 0 0 10px #716ff7, 0 0 20px #4f4f50, 0 0 30px #e987da;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.circleBg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+@keyframes float {
+  0% { transform: translateY(0); }
+  50% { transform: translateY(-15px); }
+  100% { transform: translateY(0); }
+}
+
+@keyframes zoomFadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.8);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes slideFadeInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
