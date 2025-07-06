@@ -1,10 +1,10 @@
-import Header from './componenets/Header.jsx'
-import Home from './componenets/Home.jsx'
-import Skills from './componenets/Skills.jsx'
-import Projects from './componenets/Projects.jsx'
-import Dsa from './componenets/Dsa.jsx'
-import Contact from './componenets/contact.jsx'
-import Footer from './componenets/Footer.jsx'
+import Header from './components/Header.jsx'
+import Home from './components/Home.jsx'
+import Skills from './components/Skills.js'
+import Projects from './components/Projects.jsx'
+import Dsa from './components/Dsa.jsx'
+import Contact from './components/Contact.js'
+import Footer from './components/Footer.js'
 function App() {
   return(
     <>
