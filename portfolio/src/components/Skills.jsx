@@ -8,7 +8,9 @@ import jsLogo from '../assets/js.png'
 import reactLogo from '../assets/react.png'
 import sqlLogo from '../assets/sql.png'
 import gitLogo from '../assets/git1.png'
-
+import nodeLogo from '../assets/node.png'
+import expressLogo from '../assets/express.png'
+import mongodbLogo from '../assets/mongodb.png'
 function Skills() {
     const list = [
         {name: "C", logo: Clogo},
@@ -18,8 +20,11 @@ function Skills() {
         {name: "CSS", logo: cssLogo},
         {name: "JavaScript", logo: jsLogo},
         {name: "React", logo: reactLogo},
+        {name: "Node", logo: nodeLogo},
+        {name: "express", logo: expressLogo},
+        {name: "MongoDB", logo: mongodbLogo},
         {name: "SQL", logo: sqlLogo},
-        {name: "Git", logo: gitLogo}
+        {name: "Git", logo: gitLogo},
     ]
     const skillsDisplay = list.map((x) =>(
                                     <div>
