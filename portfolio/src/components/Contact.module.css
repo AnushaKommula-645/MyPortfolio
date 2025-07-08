@@ -5,6 +5,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding: 0 20px; 
 }
 
 .container p{
@@ -41,7 +42,8 @@ form {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 500px;
+    width: 100%; 
+    max-width: 500px; 
     gap: 2rem;
     border-radius: 5px;
 }
@@ -77,4 +79,24 @@ form button[type='submit']:hover{
 .msg {
     font-size: 18px;
     color: #716ff7;
+}
+
+
+@media (max-width: 768px) {
+    .container {
+        width: 90vw;
+    }
+
+    form {
+        width: 100%;
+    }
+
+    form input,
+    form textarea {
+        width: 95%;
+    }
+
+    form button[type='submit'] {
+        width: 60%;
+    }
 }

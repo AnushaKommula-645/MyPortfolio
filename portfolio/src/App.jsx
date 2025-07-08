@@ -5,9 +5,11 @@ import Projects from './components/Projects.jsx'
 import Dsa from './components/Dsa.jsx'
 import Contact from './components/Contact.jsx'
 import Footer from './components/Footer.jsx'
+
+
 function App() {
   return(
-    <>
+    <div className="mainContainer">
       <Header />
       <Home />
       <Skills />
@@ -15,7 +17,7 @@ function App() {
       <Dsa />
       <Contact />
       <Footer />
-    </>
+    </div>
   );
 }
 

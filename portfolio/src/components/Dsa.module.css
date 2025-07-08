@@ -10,7 +10,7 @@
   color: white;
   text-align: center;
 }
-.container {
+.dsaContainer {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -37,4 +37,33 @@
 .icon {
     font-size: 40px;
     margin-bottom: 10px;
+}
+
+.profile:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px #e987da;
+    background-color: #f8f6ff;
+}
+
+@media (max-width: 768px) {
+  .dsaSection {
+    padding: 20px;
+  }
+
+  .dsaContainer {
+    gap: 1rem;
+  }
+
+  .profile {
+    width: 120px;
+    padding: 15px;
+  }
+
+  .icon {
+    font-size: 32px;
+  }
+
+  .dsaSection p {
+    font-size: 32px;
+  }
 }

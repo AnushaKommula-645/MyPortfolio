@@ -108,3 +108,40 @@ h1 {
 button:hover {
     cursor: pointer;
 }
+
+.liveBtn {
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  background-color: #f16593;
+  width: 100px;
+  height: 40px;
+  line-height: 40px;
+  border: 1px solid #f05085;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: bold;
+  box-shadow: 1px 1px 5px 1px #f16594e0;
+  color: white;
+}
+.liveBtn:hover {
+  transform: scale(1.03);
+}
+
+
+@media (max-width: 768px) {
+  .prjContainer {
+    width: 90%;
+    margin: 10px auto;
+  }
+
+  .btnContainer {
+    gap: 1rem;
+    flex-direction: column;
+  }
+
+  .btnContainer a button,
+  .btnContainer button {
+    width: 80%;
+  }
+}

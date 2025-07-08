@@ -14,7 +14,7 @@ function Dsa() {
     return (
         <div id="dsa" className={styles.dsaSection}>
             <p>DSA PROFILES</p>
-            <div className={styles.container}>
+            <div className={styles.dsaContainer}>
                 {profileList.map((x, index) => (
                     <div className={styles.profile} key={index} onClick={() => window.open(x.link, "_blank")}>
                         <div className={styles.icon}>{x.icon}</div>

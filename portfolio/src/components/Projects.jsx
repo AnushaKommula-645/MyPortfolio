@@ -64,7 +64,8 @@ function Projects() {
                 <button onClick={() => window.open(x.link, '_blank')}>GitHub</button>
                 
                 {x.live && x.live.length > 0 ? (
-                    <a href={x.live} target="_blank" rel="noopener noreferrer"><button>Live</button></a>
+                    <a href={x.live} target="_blank" rel="noopener noreferrer" className={styles.liveBtn}>Live</a>
+
                 ) : null}
             </div>
         </div>
