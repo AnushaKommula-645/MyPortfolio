@@ -51,13 +51,13 @@ function Contact() {
                     </a>
                 </div>
             </div>            
-            <form onSubmit={handleSubmit}> 
+            {/* <form onSubmit={handleSubmit}> 
                 <h3 className={styles.msg}>Leave a message here</h3>
                 <input type="text" name="name" placeholder="Your name" required />
                 <input type="email" name="mail" placeholder="Your email" required />
                 <textarea name="msg" placeholder="Your message" required />
                 <button type="submit" disabled={isSending}>{isSending ? 'Sending..' : 'Submit'}</button>
-            </form>
+            </form> */}
         </div>
     );
 }

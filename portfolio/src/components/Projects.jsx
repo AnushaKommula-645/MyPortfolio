@@ -54,8 +54,8 @@ function Projects() {
                 {x.desc}
             </div>
             <div className={styles.prjTech}>
-                {x.tech.map((y) => (
-                    <div className={styles.lang}>
+                {x.tech.map((y, index) => (
+                    <div className={styles.lang} key={index}>
                         {y}
                     </div>
                 ))}

@@ -26,8 +26,8 @@ function Skills() {
         {name: "SQL", logo: sqlLogo},
         {name: "Git", logo: gitLogo},
     ]
-    const skillsDisplay = list.map((x) =>(
-                                    <div>
+    const skillsDisplay = list.map((x, index) =>(
+                                    <div key={index}>
                                         <div className={styles.skill}>
                                             <img src={x.logo} />
                                         </div>
