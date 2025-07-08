@@ -5,6 +5,7 @@ export default defineConfig({
   plugins: [react()],
   preview: {
     host: '0.0.0.0',
-    port: 4173 // optional: keep or change if needed
+    port: 4173,
+    allowedHosts: ['anushakommula-portfolio-0gzv.onrender.com']
   }
 })
